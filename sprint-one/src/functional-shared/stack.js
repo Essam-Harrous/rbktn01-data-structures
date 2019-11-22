@@ -3,8 +3,8 @@ var Stack = function() {
   // but try not not reference your old code in writing the new style.
   
   var someInstance = {
-		i: 0,
-		lastValue: '',
+    i: 0,
+    lastValue: '',
 		storage : {}
 	};
 	return _.extend(someInstance, stackMethods);
