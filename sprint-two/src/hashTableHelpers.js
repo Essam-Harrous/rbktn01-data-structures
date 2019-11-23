@@ -21,6 +21,8 @@ var LimitedArray = function(limit) {
   };
   limitedArray.set = function(index, value) {
     checkLimit(index);
+    // var tuple = [key, value];
+    // var bucket = [tuple];
     storage[index] = value;
   };
   limitedArray.each = function(callback) {
